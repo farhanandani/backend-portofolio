@@ -19,8 +19,10 @@ async function bootstrap() {
   });
 
   app.enableCors({
-    origin: ['http://localhost:3019'],
-    methods: 'GET,HEAD,PATCH,POST,DELETE',
+    origin: [
+      'http://203.175.10.151',
+      'http://203.175.10.151:80',
+    ],
     credentials: true,
   });
 
