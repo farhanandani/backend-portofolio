@@ -22,6 +22,8 @@ async function bootstrap() {
     origin: [
       'http://203.175.10.151',
       'http://203.175.10.151:80',
+      'http://farhanandani.site',
+      'https://farhanandani.site',
     ],
     credentials: true,
   });
